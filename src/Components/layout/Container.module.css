@@ -1,0 +1,22 @@
+.container{ /*Esta é a classe principal do meu container*/
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+/*Esta é uma classe "customClass", uma classe secundária onde vou usa-la passando por props no componente que eu desejo utilizar*/
+.min-height {
+    min-height: 75%;
+}
+
+/*Esta é uma classe "customClass", uma classe secundária onde vou usa-la passando por props no componente que eu desejo utilizar*/
+.start {
+    justify-content: flex-start;
+}
+
+.column {
+    flex-direction: column;
+    justify-content: flex-start;  
+}

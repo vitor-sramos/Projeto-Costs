@@ -1,13 +1,12 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*Neste primeiro bloco de comando estou configurando todod os elementos do meu site*/
+* {
+  padding: 0; /*tirando o padding de todos*/
+  margin: 0;  /*tirando a margin de todos*/
+  box-sizing: border-box; /*este eu utilizo para que o inputs não ultrapacem o limite de onde  estiverem*/
+  font-family: "Open Sans", sans-serif; /*Font do google fonts que importei no meu index.html*/
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html, body, #root {
+  background-color: #efefefEF; /*Estou colocando uma cor de fundo padão*/
+  height: 100%; /*Para o rodapé ficar colado no fundo da página*/
 }
