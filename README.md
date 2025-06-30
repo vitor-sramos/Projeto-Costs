@@ -23,8 +23,7 @@
 ##  Instalação e uso
 
 # Clone o repositório
-git clone https://github.com/seu-usuario/costs.git
-cd costs
+git clone https://github.com/vitor-sramos/Projeto-Costs
 
 # Instale as dependências
 npm install
@@ -36,7 +35,7 @@ npx json-server --watch db.json --port 5000
 npm start
 Acesse a aplicação em: http://localhost:3000
 
-## Estrutura do projeto
+# Estrutura do projeto
 
 src/
 ├── components/         # Componentes reutilizáveis (Button, Input, etc.)
@@ -47,7 +46,7 @@ src/
 └── index.js            # Ponto de entrada do React
 
 
-## Aprendizados
+# Aprendizados
 - Estruturação de componentes React
 - Utilização de Hooks (useState, useEffect)
 - Integração com API REST fake (json-server)
@@ -58,4 +57,5 @@ src/
 ## Autor
 - Desenvolvido por Vitor de Souza Ramos
 - Estudante de Ciência da Computação na UNESC
-- GitHub • LinkedIn
+- GitHub: https://github.com/vitor-sramos 
+- LinkedIn: https://www.linkedin.com/in/vitor-ramos-934302349
