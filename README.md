@@ -20,23 +20,9 @@
 - [uuid](https://www.npmjs.com/package/uuid)
 - HTML5 + CSS3
 
-##  Instalação e uso
-
-# Clone o repositório
-git clone https://github.com/vitor-sramos/Projeto-Costs
-
-# Instale as dependências
-npm install
-
-# Inicie o servidor json (em um terminal separado)
-npx json-server --watch db.json --port 5000
-
-# Inicie a aplicação React
-npm start
-Acesse a aplicação em: http://localhost:3000
-
 # Estrutura do projeto
 
+```plaintext
 src/
 ├── components/         # Componentes reutilizáveis (Button, Input, etc.)
 ├── layout/             # Componentes de layout (Navbar, Container)
@@ -44,7 +30,30 @@ src/
 ├── services/           # Requisições HTTP
 ├── App.js              # Arquivo principal com rotas
 └── index.js            # Ponto de entrada do React
+```
 
+##  Instalação e uso
+
+# Clone o repositório
+```bash
+git clone https://github.com/vitor-sramos/Projeto-Costs
+```
+
+# Instale as dependências
+```bash
+npm install
+```
+
+# Inicie o servidor json (em um terminal separado)
+```bash
+npx json-server --watch db.json --port 5000
+```
+
+# Inicie a aplicação React
+```bash
+npm start
+```
+Acesse a aplicação em: http://localhost:3000
 
 # Aprendizados
 - Estruturação de componentes React
