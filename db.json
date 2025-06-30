@@ -1,6 +1,29 @@
 {
   "projects": [
-       
+    {
+      "id": "7b7e",
+      "name": "Agendamento Escolar",
+      "budget": "10000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 2000,
+      "services": [
+        {
+          "name": "Cadastro de professores",
+          "cost": "1000",
+          "description": "Cadastro de professores, capturando dados necessários.",
+          "id": "d6da73e9-c07b-4ba3-8f40-5af4f0030a07"
+        },
+        {
+          "name": "Cadastro de alunos",
+          "cost": "1000",
+          "description": "Cadastro de alunos, capturando dados necessários.",
+          "id": "ce8751ca-f974-45e8-83ac-4c10ad9cf7ee"
+        }
+      ]
+    }
   ],
   "categories": [
     {
